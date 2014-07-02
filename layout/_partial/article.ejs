@@ -16,17 +16,12 @@
         <% if (post.comments && config.disqus_shortname){ %>
           <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"></a>
         <% } %>
-        <div class="article-preview-meta">
-          <%- partial('post/date', {class_name: 'article-date', date_format: 'YYYY-MM-DD'}) %>
-        </div>
       </footer>
     <% } else { %>
       <footer class="article-footer">
         <%- partial('post/category') %>
         <%- partial('post/tag') %>
-        <div class="article-preview-meta">
-          <%- partial('post/date', {class_name: 'article-date', date_format: 'YYYY-MM-DD'}) %>
-        </div>
+
       </footer>
       <div class="article-entry" itemprop="articleBody">
         <% if (post.excerpt && index){ %>
