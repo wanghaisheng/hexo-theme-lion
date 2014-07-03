@@ -4,22 +4,22 @@ menu:
     path: /
     icon: /images/icon-home.png
   - name: 文档
-    path: /doc
+    path: categories/doc
     icon: /images/icon-documentation.png
   - name: 实现
-    path: /impl
+    path: categories/impl
     icon: /images/icon-implementation.png
   - name: 资源
-    path: /res
+    path: categories/res
     icon: /images/icon-res.png
   - name: 临床资源
-    path: /clin
+    path: categories/clin
     icon: /images/icon-clinical.png
   - name: 管理资源
-    path: /admin
+    path: categories/admin
     icon: /images/icon-administration.png
   - name: 基础体系
-    path: /infra
+    path: categories/infra
     icon: /images/icon-infrastructure.png
   - name: github
     path: https://github.com/hl7-fhir/hl7-fhir.github.io
