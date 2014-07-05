@@ -1,25 +1,25 @@
 # Header
 menu:
   - name: 首页 
-    path: /fhir-cn/home/index.html
+    path: /home/index.html
     icon: ../images/icon-home.png
   - name: 文档
-    path: /fhir-cn/doc/documentation.html
+    path: /doc/documentation.html
     icon: ../images/icon-documentation.png
   - name: 实现
-    path: /fhir-cn/impl/implementation.html
+    path: /impl/implementation.html
     icon: ../images/icon-implementation.png
   - name: 资源
-    path: /fhir-cn/res/resourcelist.html
+    path: /res/resourcelist.html
     icon: ../images/icon-res.png
-  - name: 临床类资源
-    path: /fhir-cn/clin/clinical.html
+  - name: 临床资源
+    path: /clin/clinical.html
     icon: ../images/icon-clinical.png
-  - name: 行政管理类资源
-    path: /fhir-cn/admin/administration.html
+  - name: 管理资源
+    path: /admin/administration.html
     icon: ../images/icon-administration.png
-  - name: 基础架构类资源
-    path: /fhir-cn/infra/infrastructure.html
+  - name: 基础体系
+    path: /infra/infrastructure.html
     icon: ../images/icon-infrastructure.png
   - name: github
     path: https://github.com/hl7-fhir/hl7-fhir.github.io
